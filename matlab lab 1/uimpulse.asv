@@ -1,0 +1,4 @@
+function x = unit_impulse(n)
+% Unit Impulse Sequence
+x = (n == 0);
+

@@ -1,0 +1,4 @@
+
+check_stability([1 -1], 1)      % Differentiator
+check_stability([1 1 1]/3, 1)   % Smoothing
+check_stability(1, [1 -1])      % Accumulator
